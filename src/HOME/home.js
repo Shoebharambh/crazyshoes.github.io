@@ -20,15 +20,17 @@ const Home = () => {
                             <li>SNKRS</li>
                         </ul>
                     </div>
-                    <hr/>
+                    <hr />
                     <div id="hero_box">
                         <div id="left_box">
-                            <h1 id="main">Nike Air Max</h1><br/>
-                            <h1 id="sec_main">Lebagh</h1>
-                            <p>Nike Air Max is a line of shoes produced by Nike,
-                                Air Max shoes are identified by their midsoles incorporating flexible urethane pouches filled
-                                with pressurized gas,
-                                visible from the exterior of the shoe and intended to provide cushioning to the underfoot.</p>
+                            <div id="text_tag">
+                                <h1 id="main">Nike Air Max</h1><br />
+                                <h1 id="sec_main">Lebagh</h1>
+                                <p>Nike Air Max is a line of shoes produced by Nike,
+                                    Air Max shoes are identified by their midsoles incorporating flexible urethane pouches filled
+                                    with pressurized gas,
+                                    visible from the exterior of the shoe and intended to provide cushioning to the underfoot.</p>
+                            </div>
                             <div id="tags">
                                 <h1>$190</h1>
                                 <button>Add to cart</button>
@@ -46,7 +48,7 @@ const Home = () => {
                                 <div id="box">
                                     <img src={airjordan} alt="adiddas" />
                                     <div>
-                                        <h4>Adiddas</h4>
+                                        <h4>Adidas</h4>
                                         <h3>$120</h3>
                                     </div>
                                 </div>
@@ -60,7 +62,7 @@ const Home = () => {
                             </div>
 
                         </div>
-                            <img src={Nike} alt="Nike" id="big_shoe"/>
+                        <img src={Nike} alt="Nike" id="big_shoe" />
                     </div>
 
                 </div>
