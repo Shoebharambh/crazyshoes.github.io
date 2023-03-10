@@ -3,10 +3,9 @@ import adiddas from "../image/adiddas.png"
 import airmax from "../image/airmax.png"
 import airjordan from "../image/airjordan.png"
 import "./home.css"
+import { Link } from "react-router-dom"
 
 const Home = () => {
-
-    // const 
 
     return (
         <>
@@ -14,9 +13,10 @@ const Home = () => {
                 <div id="center_div">
                     <div id="nav_bar">
                         <ul>
-                            <li>MEN</li>
-                            <li>WOMEN</li>
+                        <Link to="/men"><li>MEN</li></Link>
+                        <Link to="/women"><li>WOMEN</li></Link>
                             <li>SALE</li>
+                            <li>CUSTOMIZE</li>
                             <li>SNKRS</li>
                         </ul>
                     </div>
@@ -34,7 +34,6 @@ const Home = () => {
                                 <button>Add to cart</button>
                             </div>
 
-                            {/* show slider create here  */}
                             <div id="slider_div">
                                 <div id="box">
                                     <img src={adiddas} alt="adiddas" />
